@@ -62,6 +62,9 @@ import 'package:flutter/material.dart';
     if (sesHint.isEmpty) return button;
     return Tooltip(
       message: sesHint,
+      textStyle: const TextStyle(
+        color: Colors.white
+      ),
       waitDuration: const Duration(milliseconds: 500),
       decoration: BoxDecoration(
         color: const Color(0xE6303F46),

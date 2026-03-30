@@ -6,3 +6,4 @@ export 'src/toggle_switch.dart';
 export 'src/initialization_widget.dart';
 export 'src/input_box.dart';
 export 'src/checkbox.dart';
+export 'src/energized_lamp.dart';
